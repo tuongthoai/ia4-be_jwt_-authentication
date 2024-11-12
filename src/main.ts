@@ -5,7 +5,7 @@ import { INestApplication } from '@nestjs/common';
 
 async function bootstrap() {
   const corsOptions = {
-    origin: 'https://react-fe-user-registration.onrender.com',
+    origin: 'https://ia4-fe-jwt-authentication.onrender.com',
     optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
     credentials: true,
   };
